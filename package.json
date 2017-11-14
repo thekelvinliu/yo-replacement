@@ -14,7 +14,8 @@
     "ios": "react-native-scripts ios",
     "test": "node node_modules/jest/bin/jest.js --watch",
     "reset": "rm -rf node_modules yarn.lock",
-    "precommit": "eslint ."
+    "precommit": "eslint .",
+    "prepush": "jest"
   },
   "dependencies": {
     "expo": "^22.0.2",
