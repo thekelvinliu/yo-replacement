@@ -1,4 +1,5 @@
 module.exports = {
+  parser: 'babel-eslint',
   extends: 'airbnb',
   env: {
     jest: true
@@ -8,6 +9,7 @@ module.exports = {
     fetch: false
   },
   rules: {
-    'react/jsx-filename-extension': 'off'
+    'react/jsx-filename-extension': 'off',
+    'react/prefer-stateless-function': 'off'
   }
 };
