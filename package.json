@@ -2,7 +2,7 @@
   "name": "yo-replacement",
   "version": "0.0.1",
   "description": "a quick replacement for yo (location only)",
-  "main": "index.js",
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "repository": "git@github.com:thekelvinliu/yo-replacement.git",
   "author": "thekelvinliu <kelvin@thekelvinliu.com>",
   "license": "MIT",
@@ -14,7 +14,7 @@
     "ios": "react-native-scripts ios",
     "test": "node node_modules/jest/bin/jest.js --watch",
     "reset": "rm -rf node_modules yarn.lock",
-    "precommit": "eslint .",
+    "precommit": "eslint App",
     "prepush": "jest"
   },
   "dependencies": {
