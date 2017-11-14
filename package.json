@@ -1,7 +1,7 @@
 {
   "name": "yo-replacement",
   "version": "0.0.1",
-  "description": "a quick replacement for yo (location only)",
+  "description": "a quick replacement for the yo location api",
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "repository": "git@github.com:thekelvinliu/yo-replacement.git",
   "author": "thekelvinliu <kelvin@thekelvinliu.com>",

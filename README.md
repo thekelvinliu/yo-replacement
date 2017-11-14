@@ -1,2 +1,2 @@
 # yo-replacement
-a quick replacement for yo (location only)
+a quick replacement for the yo location api
